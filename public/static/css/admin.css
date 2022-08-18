@@ -1,0 +1,246 @@
+* a {
+	text-decoration: none;
+}
+body {
+	font-size: 14px;
+	background-color: #536074;
+}
+h2,h3,h4,h5,ul,body,html {
+	padding: 0xpx;
+	margin: 0px;
+}
+.mtop16 {
+	margin-top: 16px;
+}
+.wrapper {
+	min-height: 100vh;
+	overflow: hidden;
+}
+.wrapper .col1 {
+	float: left;
+	position: relative;
+	z-index: 999;
+	width: 17%;
+	height: 100%;	
+}
+.wrapper .col2 {
+	float: left;
+	width: 83%;
+}
+.logo img {
+	width: 30%;
+    display: block;
+    margin: 0px auto;
+}
+.sidebar {
+	background-color: #4A798D;
+	min-height: 110vh;
+}
+.sidebar .section-top {
+	background-color: #80A8B9;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15);
+}
+.sidebar .user {
+	color: #fff !important;
+	padding-top: 16px;
+}
+.main a.active {
+	background-color: #80A8B9;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15);
+	color: #fff !important;
+	text-decoration: none;
+}
+.user a {
+	color: white;
+	font-size: 1.2em;
+}
+.main ul{
+	margin-top: 8px;
+	display: block;
+	margin-left: -35px;
+}
+.main li{
+	margin-bottom: 4px;
+	list-style: none;
+}
+.main a{
+	color: #8898AC;
+	display: block;
+	font-size: 1.1em;
+	padding: 12px 12px;
+	text-decoration: none;
+}
+.main a i {
+	margin-right: 10px;
+}
+.main a:hover{
+	background-color: #80A8B9;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15);
+	color:  #fff !important;
+	text-decoration: none;
+
+}
+.navbar{
+	background-color: #838D9D;
+}
+.navbar a {
+	color: whitesmoke;
+}
+.navbar a:hover{
+	color: #8898AC
+}
+.page{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.page .breadcrumb {
+	background-color: #5E6C81;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.10) !important;
+}
+.page a {
+	color: whitesmoke;
+}
+.page .panel{
+	background-color: #536074;
+	border-radius: 6px;
+	border-bottom: 2px solid #032736;
+	width: 100%;
+}
+.page .header{
+	border-bottom: 1px solid #5E6C81;
+}
+.page .inside {
+	color: #8898AC;
+	padding: 16px;
+}
+.page .title {
+	display: inline-block;
+	color: whitesmoke;
+	font-size: 1.1em;
+	padding: 12px 16px;
+}
+.opts {
+	border-radius: 4px;
+	border: 1px solid #f0f0f0;
+	display: inline-block;
+	padding: 8px 12px;
+}
+.page td{
+	color: whitesmoke;
+}
+.btn-save:hover,
+.btn-save:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+.test input {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    border-radius: 5.5px;
+}
+.test input:hover, input:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+.test input {
+    color: var(--color);
+    transition: 0.25s;
+}
+/* variables del borde y relleno de la transición */
+.btn-save {
+    --color: #979EA8;
+    --hover: #707B8B;
+}
+.btn-save:hover, .btn-save:focus {
+    box-shadow: inset 0 -3.25em 0 0 var(--hover);
+ box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+.navlink{
+	border: 1px solid #548B9D; 
+	border-radius: 6px;
+	margin-right: 8px;
+}
+.navlink:hover{
+	background-color: #6FC4E1;
+}
+.nav-link:hover{
+	color: #fff;
+}
+.elipsis {
+	overflow: hidden;
+	text-overflow: elipsis; 
+}
+.product_gallery{
+	overflow: hidden;
+}
+.product_gallery .tumb{
+	float: left;
+	width: 100%;
+	margin-right: 1%;
+	display: block;
+}
+.tumb a{
+	width: 100%;
+	color: whitesmoke;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 1.5em;
+	display: block;
+	padding: 16px;
+	border: 1px dashed;
+
+}
+.tumb a:hover{
+	background-color: #212A34;
+}
+.tumbs {
+	overflow: hidden;
+}
+.tumbs-tumb{
+	float: left;
+	width: 48%;
+	position: relative;
+	margin-top: 8px;
+	margin-right: 2px;
+}
+.tumbs-tumb a{
+	display: inline-block;
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 6px;
+	border-radius: 6px;
+}
+.tumbs-tumb a:hover{
+	color: darkred;
+	background-color: rgba(255,255,255,.5);
+}
+.tumbs-tumb img{
+	border-radius: 4px;
+}
+.tumbs:nth-child(odd) img{
+	margin-right: 4%;
+}
+.table-danger-custom{
+
+color: white;
+padding: .5rem .5rem;
+background-color: white;
+border-bottom-width: 1px;
+box-shadow: inset 0 0 0 9999px #FF4747;
+}
+.page_user .mini_profile .avatar{
+	width: 45px;
+	border-radius: 50%;
+}
+.mini_profile .info span{
+	display: block;
+	width: 100%;
+}
+.mini_profile .info span.title{
+	font-weight: bold;
+}
